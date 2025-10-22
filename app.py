@@ -7,7 +7,6 @@ from fpdf import FPDF
 import tempfile
 import os
 import json
-import firebase_admin
 from firebase_admin import credentials
 # -------------------- Firebase Setup --------------------
 if not firebase_admin._apps:
